@@ -8,5 +8,6 @@ DATETIME=$(date '+%Y-%m-%d %I:%M%P %Z')
 
 mkdir -p ~/.claudeprompts/${DIR_NAME}
 echo -e "${DATETIME}\n${PROMPT}\n" >> ~/.claudeprompts/${DIR_NAME}/${SESSION_ID}.log
+echo -e "${PROMPT}" >> ~/.claudeprompts/${DIR_NAME}/${SESSION_ID}-raw.log
 
 exit 0

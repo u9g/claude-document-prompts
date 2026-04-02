@@ -8,12 +8,21 @@ A `UserPromptSubmit` hook fires each time you send a message in Claude Code. It 
 
 ## Log format
 
-Prompts are written to `~/.claudeprompts/{project_name}/{session_id}.log`:
+Two files are created per session in `~/.claudeprompts/{project_name}/`:
+
+**`{session_id}.log`** — timestamped log:
 
 ```
-2026-04-02 14:30:00
+2026-04-02 02:30pm EST
 the user's prompt text
 
+```
+
+**`{session_id}-raw.log`** — just the prompts, one per line:
+
+```
+the user's prompt text
+another prompt
 ```
 
 `{project_name}` is the last segment of the working directory (e.g. `my-app` for `/home/user/code/my-app`).
