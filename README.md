@@ -20,29 +20,13 @@ the user's prompt text
 
 ## Installation
 
-1. Clone this repo
-2. Make the script executable:
-   ```bash
-   chmod +x log-prompt.sh
-   ```
-3. Add the hook to `~/.claude/settings.json`:
-   ```json
-   {
-     "hooks": {
-       "UserPromptSubmit": [
-         {
-           "hooks": [
-             {
-               "type": "command",
-               "command": "/path/to/log-prompt.sh"
-             }
-           ]
-         }
-       ]
-     }
-   }
-   ```
-4. Restart Claude Code
+Install as a Claude Code plugin:
+
+```
+/plugin install claude-document-prompts@u9g
+```
+
+Or manually: clone this repo and load it with `claude --plugin-dir ./claude-document-prompts`.
 
 ## Requirements
 

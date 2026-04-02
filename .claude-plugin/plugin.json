@@ -1,0 +1,10 @@
+{
+  "name": "claude-document-prompts",
+  "description": "Logs user prompts to ~/.claudeprompts for history tracking",
+  "version": "1.0.0",
+  "author": {
+    "name": "u9g"
+  },
+  "repository": "https://github.com/u9g/claude-document-prompts",
+  "license": "MIT"
+}
