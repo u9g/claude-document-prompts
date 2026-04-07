@@ -1,6 +1,6 @@
 {
   "name": "promptlog",
-  "description": "Logs user prompts to ~/.promptlog for history tracking",
+  "description": "Logs user prompts to ~/.promptlog",
   "version": "1.0.0",
   "author": {
     "name": "u9g"

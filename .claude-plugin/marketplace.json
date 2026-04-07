@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "promptlog",
-      "description": "Logs every Claude Code user prompt to ~/.promptlog for history tracking",
+      "description": "Logs every Claude Code user prompt to ~/.promptlog",
       "source": "./",
       "category": "productivity",
       "homepage": "https://github.com/u9g/promptlog"
