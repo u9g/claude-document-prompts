@@ -1,4 +1,8 @@
-# promptlog
+<p align="center">
+  <img src="logo.svg" alt="promptlog" width="160">
+</p>
+
+<h1 align="center">promptlog</h1>
 
 A Claude Code hook that logs every user prompt to `~/.promptlog/`.
 
