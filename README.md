@@ -1,6 +1,6 @@
-# claude-document-prompts
+# promptlog
 
-A Claude Code hook that logs every user prompt to `~/.claudeprompts/`.
+A Claude Code hook that logs every user prompt to `~/.promptlog/`.
 
 ## How it works
 
@@ -8,7 +8,7 @@ A `UserPromptSubmit` hook fires each time you send a message in Claude Code. It 
 
 ## Log format
 
-Two files are created per session in `~/.claudeprompts/{project_name}/`:
+Two files are created per session in `~/.promptlog/{project_name}/`:
 
 **`{session_id}.log`** — timestamped log:
 
@@ -32,10 +32,10 @@ another prompt
 Install as a Claude Code plugin:
 
 ```
-/plugin install claude-document-prompts@u9g
+/plugin install promptlog@u9g
 ```
 
-Or manually: clone this repo and load it with `claude --plugin-dir ./claude-document-prompts`.
+Or manually: clone this repo and load it with `claude --plugin-dir ./promptlog`.
 
 ## Requirements
 
