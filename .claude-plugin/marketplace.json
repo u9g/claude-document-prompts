@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "u9g",
+  "description": "u9g's Claude Code plugins",
+  "owner": {
+    "name": "u9g"
+  },
+  "plugins": [
+    {
+      "name": "promptlog",
+      "description": "Logs every Claude Code user prompt to ~/.promptlog for history tracking",
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/u9g/promptlog"
+    }
+  ]
+}

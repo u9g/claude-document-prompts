@@ -32,6 +32,7 @@ another prompt
 Install as a Claude Code plugin:
 
 ```
+/plugin marketplace add u9g/promptlog
 /plugin install promptlog@u9g
 ```
 
