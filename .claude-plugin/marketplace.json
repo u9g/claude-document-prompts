@@ -12,6 +12,16 @@
       "source": "./",
       "category": "productivity",
       "homepage": "https://github.com/u9g/promptlog"
+    },
+    {
+      "name": "mineflayer-pr-review",
+      "description": "Review checklist + gate hook that runs before opening a mineflayer PR",
+      "source": {
+        "source": "github",
+        "repo": "u9g/mineflayer-pr-review"
+      },
+      "category": "productivity",
+      "homepage": "https://github.com/u9g/mineflayer-pr-review"
     }
   ]
 }
